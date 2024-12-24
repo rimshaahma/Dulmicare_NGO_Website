@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>DULMICARE FOUNDATION</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/1122.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <!-- Include Google Font -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+</head>
+<style>
+  
+  @font-face {
+    font-family: 'Montserrat' !important;
+  
+    
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/montserrat/v26/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2') format('woff2');
+    unicode-range: U+0460-052F, U+1C80;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+   
+   
+}
+body h1,h2,h3{
+    font-weight: bolder !important;
+   
+}
+#logo{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+@media screen and (min-width: 768px){
+    #logo{
+    height: 50px;
+width:200px;
+float: right;
+}
+#don{
+    width: 100%;
+}
+.topbar{
+    display: none;
+}
+}
+
+    /* Media query for screens below 600px */
+@media (max-width: 768px) {
+    #logo{
+    height: 70px;
+width:150px;
+padding-bottom: 30px;
+}
+.newbar{
+    padding-top: -30px;
+   
+}
+    body {
+        font-size: 20px !important;
+        letter-spacing: 0.1em !important;
+        line-height: 1.6 !important;
+    }
+
+    h1 {
+        font-size: 23px !important;
+        font-weight: bolder !important;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-size: 23px;
+    }
+
+    p, span, a, li, div {
+        font-size: 19px;
+    }
+    .topbar{
+        display: none;
+    }
+    .newbar{
+        margin-top: 0% !important;
+        margin-bottom: 0% !important;
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+        background-color: white !important;
+    }
+}
+/* Show the toggle button and hide the navigation menu for screen widths <= 850px */
+@media (max-width: 850px) {
+    .navbar-toggle {
+        display: block !important; /* Show the toggle button */
+    }
+    .navbar-collapse {
+        display: none !important; /* Hide the navigation menu */
+    }
+}
+
+/* Show the navigation menu when it is expanded */
+.navbar-collapse.in {
+    display: block !important;
+}
+
+    </style>
+
+    <header class="header header_style_01 newbar" style="background-color: white;">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                       <li id="logo"><a><img src="images/newpics/logoo.JPG" alt="image" id="logo"></a> </li>
+                        <li><a data-scroll-nav="0" href="#main-banner" class="active" style="font-weight: bolder;">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a data-scroll-nav="1"style="font-weight: bolder;" href="#about" class="dropdown-toggle" >About Us</a>
+                            <ul class="dropdown-menu" style="margin-left: 80px;padding-left: 60px; color: red;font-weight: bold;">
+                               <h2 style="font-weight: bold;justify-content: center;align-items: center; color: red;">Our Team</h2>
+                               <li><a href="#CM">Chairman's Message</a></li>
+                               <li><a href="#adv">Board of Advisors</a></li>
+                                <li><a href="#BOD">Board of Directors</a></li>
+                              
+                            </ul>
+                        </li>
+                        <li><a data-scroll-nav="2" href="#issues" style="font-weight: bolder;">Achievements</a></li>
+						<li><a data-scroll-nav="4" href="#gallery" style="font-weight: bolder;" >Gallery</a></li>
+                        <li><a data-scroll-nav="5" href="#cer" style="font-weight: bolder;" >Certificates</a></li>
+                        
+                        <a href="#don" ><button style="color: white; background-color: green; border: none;padding: 10px;border-radius: 5%;">Donate</button> </a>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <style>
+    /* Ensure .quote-box is styled consistently */
+.banner-slide .quote-box {
+    width: 100% !important;
+    max-width: 600px !important; /* Example value; adjust as needed */
+    margin: 0 auto !important;
+    padding: 20px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+}
+
+/* Hide .quote-box elements on screens smaller than 768px */
+@media (max-width: 768px) {
+ .quote-box{
+    display: none;
+ }   
+ .image-slider {
+    position: relative;
+    width: 100%;
+    height: 400px !important; /* Set a fixed height for the slider */
+    overflow: hidden;
+}
+   
+}
+@media (min-width: 768px) {
+    .quote-box-1{
+        display: none;
+    }
+}
+
+
+
+
+    </style>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none; /* Hide all slides initially */
+    width: 100%;
+    position: relative; /* Make slide a positioning context for the quote box */
+}
+
+.slide img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline spacing */
+}
+
+.quote-box {
+    position: absolute; /* Position quote box relative to its parent slide */
+    bottom: 20px; /* Adjust positioning from the bottom */
+    left: 20px; /* Adjust positioning from the left */
+    background-color: orange; /* Set background color */
+    color: white;
+    padding: 20px; /* Adjust padding */
+    border-radius: 10%; /* Rounded corners */
+    max-width: 80%; /* Ensure it fits well within the slide */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-bottom: 380px;
+}
+
+.quote-box h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0; /* Remove default margins */
+    color: white;
+}
+.slide img {
+    width: 100%;
+    height: 100%; /* Ensure image takes full height of container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+.image-slider {
+    position: relative;
+    width: 100%;
+    height: 800px; /* Set a fixed height for the slider */
+    overflow: hidden;
+}
+
+.slide {
+    display: none; /* Hide all slides initially */
+    width: 100%;
+    height: 100%; /* Ensure the slide takes the full height of the container */
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%; /* Ensure image takes full height of container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+
+    </style>
+    <div id="image-slider" class="image-slider">
+        <div class="slide">
+            <img src="images/newpics/For first three photos 1.jpeg" alt="Description of image 1">
+            <div class="quote-box">
+                <h2>Helping Community for<br> a better tomorrow.</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/newpics/for first three photos 2.jpeg" alt="Description of image 2">
+            <div class="quote-box">
+                <h2>Helping Community for <br>a better tomorrow</h2>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="images/newpics/For first three photos 3.jpeg" alt="Description of image 3">
+            <div class="quote-box">
+                <h2>Helping Community for<br> a better tomorrow</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class=" quote-box-1">
+        <h2 class="wow fadeInUp animated">Helping Community for<br> a better tomorrow</h2>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+    const displayDuration = 3000; // Change slide every 1 second
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.display = i === index ? 'block' : 'none';
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(currentIndex);
+    }
+
+    showSlide(currentIndex);
+    setInterval(nextSlide, displayDuration);
+});
+
+    </script>
+    <section class="purple" style="background-color: hsl(300, 26%, 95%);">
+    <section class="home">
+   <!-- ##############################      HOME          #################### -->
+    <style>
+        @media only screen and (max-width: 768px){
+.home-para{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}  
+      }
+      @media only screen and (min-width: 768px){
+    .home-para{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+}
+.home-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+} 
+      }   
+    </style>
+    <div class="home-content" style="justify-content: right;">
+        <div class="home-para">
+            <h3>Who we are</h3>
+            <h1><span style="font-weight: bold;text-align: left;justify-content: left;">Dulmicare Foundation: Helping Community for a better tomorrow</span></h1>
+            <p>Founded in 2023, Dulmicare Foundation is a not-for-profit organization (NPO) registered with the Securities and Exchange Commission of Pakistan (SECP) under Section 42 of the Companies Act 2017.<br>
+                </p>
+        </div>
+       
+   
+</section>             
+			<div class="section nopad">
+        <img src="uploads/" alt="" class="img-responsive">
+
+
+    </div>
+<!-- #############-----------------key objectives----------------##################---- -->
+ <style>
+    .key-card p{
+        color: black !important;
+        justify-content: left;
+        letter-spacing: 0.7px;
+    }
+    .key h1{
+        font-size: 35px;
+    }
+    .key{
+        padding-top: -25px;
+        margin-top: -25px;
+        padding-bottom: 0%;
+    }
+    .key-card h2{
+        font-weight: bolder;
+        color: red;
+        
+    }
+ </style>
+ <section class="key">
+    <h1 style="font-weight: bolder !important;justify-content: center;align-items: center;text-align: center;"> <span style="font-weight: bold;">OUR KEY AND SUPPLEMENTARY OBJECTIVES</span></h1>
+    <div class="key-cards">
+        <div class="key-card  wow fadeInUp animated ">
+            
+            <img src="images/key1.png" alt="Poverty Alleviation">
+            <h2 style="font-weight: bold;"><span style="font-weight: bold;">Poverty Alleviation</span></h2>
+            <p>Combating and eradicating poverty by empowering the needy through skill & job potential enhancement.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/key2.jpg" alt="Health Care">
+            <h2><span style="font-weight: bold;">Health Care</span></h2>
+            <p>Facilitation of medical treatment to underprivileged populace, and improvement in healthcare facilities.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/keyy3.jpg" alt="Education & Skill Development">
+            <h2 style="font-weight: bold;"><span style="font-weight: bold;">Education & Skill Development</span></h2>
+            <p>Optimum promotion of technical, vocational & scientific education including sponsoring schools and supporting deserving and shining students.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/keyy4.jpg" alt="Community Services & Infrastructure">
+            <h2 style="font-weight: bold;"><span style="font-weight: bold;">Community Services & Infrastructure</span></h2>
+            <p>Including construction of Patwar Khana, massive dredging of Dulmial Bun (pond) and reinforcements of its sides, graveyard cleaning/paved pathways, shuttle service for the poor, contribution to Quran Center and Masajid.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/key5.jpg" alt="Preventive Health">
+            <h2> <span  style="font-weight: bold;">Preventive Health </span></h2>
+            <p>Prevention of water-borne diseases through provision of clean potable water and promotion of measures to increase subsoil water levels.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/key6.jpg" alt="Care Centers">
+            <h2> <span style="font-weight: bold;">Care Centers</span></h2>
+            <p>Establishing care centers for the disabled, senior citizens, orphans and other such needy individuals.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/keyy7.jpg" alt="Environment Preservation">
+            <h2><span style="font-weight: bold;">Environment Preservation</span></h2>
+            <p>Creating awareness and helping the public for preserving the environment.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/key8.jpg" alt="Ethics & Moral Values">
+            <h2> <span style="font-weight: bold;">Ethics & Moral Values</span></h2>
+            <p>Promoting tolerance, harmony, ethics and moral values in the society.</p>
+        </div>
+        <div class="key-card  wow fadeInUp animated">
+            <img src="images/newpics/marqee2.jpeg" alt="Social Welfare">
+            <h2> <span style="font-weight: bold;">Social Welfare</span></h2>
+            <p>Supporting various social welfare activities to enhance community living standards.</p>
+        </div>
+    </div>
+</section>
+<!-- ====######=========MARQEEE MOVING SLIDER=========########====
+ -================================================================ -->
+ <style>
+    .marquee {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0;
+    }
+
+    .marquee-content {
+        display: inline-block;
+        animation: marquee 160s linear infinite;
+    }
+
+    .marquee-content img {
+        width: 300px;
+        height: 300px;
+        margin-right: 10px; /* Space between images */
+    }
+
+    @keyframes marquee {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+</style>
+<div class="marquee">
+    <div class="marquee-content">
+        <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+        <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+        <img src="images/achi2.JPG" alt="Image 3">
+        <img src="images/key5.jpg" alt="Image 4">
+        <img src="images/key1.png" alt="Image 5">
+        <!-- Duplicated images for continuous effect -->
+        <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+        <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+        <img src="images/achi2.JPG" alt="Image 3">
+        <img src="images/key5.jpg" alt="Image 4">
+        <img src="images/key1.png" alt="Image 5">
+        <!-- Duplicated images for continuous effect -->
+        <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+        <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+        <img src="images/achi2.JPG" alt="Image 3">
+        <img src="images/key5.jpg" alt="Image 4">
+        <img src="images/key1.png" alt="Image 5">
+        <!-- Duplicated images for continuous effect -->
+        <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+        <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+        <img src="images/achi2.JPG" alt="Image 3">
+        <img src="images/key5.jpg" alt="Image 4">
+        <img src="images/key1.png" alt="Image 5">
+      <!-- Duplicated images for continuous effect -->
+      <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+      <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+      <img src="images/achi2.JPG" alt="Image 3">
+      <img src="images/key5.jpg" alt="Image 4">
+      <img src="images/key1.png" alt="Image 5">
+      <!-- Duplicated images for continuous effect -->
+      <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+      <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+      <img src="images/achi2.JPG" alt="Image 3">
+      <img src="images/key5.jpg" alt="Image 4">
+      <img src="images/key1.png" alt="Image 5">
+    
+         <!-- Duplicated images for continuous effect -->
+         <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+         <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+         <img src="images/achi2.JPG" alt="Image 3">
+         <img src="images/key5.jpg" alt="Image 4">
+         <img src="images/key1.png" alt="Image 5">
+         
+    </div>
+</div>
+
+
+<script>
+    window.addEventListener('load', () => {
+        const marqueeContent = document.querySelector('.marquee-content');
+        const marqueeImages = document.querySelectorAll('.marquee-content img');
+
+        let totalWidth = 0;
+        marqueeImages.forEach(image => {
+            totalWidth += image.offsetWidth;
+        });
+
+        marqueeContent.style.width = `${totalWidth}px`;
+    });
+</script>
+
+<section class="purple" style="background-color: hsl(300, 26%, 95%);">
+
+<!-- ==###############################################=======================================================================================
+ ========================================================ABOUTUS============================#######################################################======================= -->
+ <style>
+    .about h1{
+        font-size: 45px !important;
+        font-weight: bolder;
+    }
+    .history{
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+    
+    }
+    
+ </style>
+      <div id="about" data-scroll-index="1" class="section wb">
+<div class="history">
+ 
+       <div class="text-center  about">
+            <h1><a  href="#about" style="justify-content: center; text-align: center;" class="about-head" ><span style="font-weight: bolder;">About Us</span></a></h1>
+        </div> <!-- History -->
+<h2 class="head" ><span style="color: red;font-weight: 200; ">Our history<span> 
+    </h2>
+    <p style="color: black; font-weight: bolder;" class="para1 wow fadeInUp">Helping Community for a better tomorrow:<br>
+        The Dulmicare Foundation Story</p>
+    <p style="font-weight: 300;">Founded in 2023, Dulmicare Foundation is a not-for-profit organization (NPO) registered with the Securities and Exchange Commission of Pakistan (SECP) under Section 42 of the Companies Act 2017, with Incorporation number, 0232649, SECP License No. 1811 and FBR registration No. A514235.  Through education & skills development, poverty alleviation, medical care, environment preservation, and promotion of tolerance, harmony & moral values in the society, we aim to help communities for a better tomorrow. </p>
+
+    <p style="font-weight: 300;"><strong style="font-weight: bolder;" >DULMICARE FOUNDATION </strong>name was chosen keeping in view the affiliation of most of the directors of the company with their native village Dulmial. The Village Dulmial is a historic village in District Chakwal and is known for its contribution in the Armed Forces of Pakistan and British era. In recognition of its services, the village has a unique distinction and honour of having been awarded with a large caliber Artillery Gun which proudly stands at the village entrance. The village Dulmial gets its name from the village founder Mr. Dulmi Khan who was a military commander of Sultan Shahāb-ud-Din Muhammad Ghori. Hence the company name is Dulmicare Foundation. While the Foundation endeavors to bring improvements in village Dulmial and adjoining areas, the territories to which the object of the company extends, have been declared to include whole of Pakistan.
+  </p>
+  <!--######## Chairman's message ########-->
+   <style>
+    .msg{
+        border-bottom: 8px solid red;
+    }
+    @media (max-width: 768px){
+        .msg{
+            flex-direction: column;
+            margin: 0%;
+            padding: 0%;
+        }
+        .msg-content h1{
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           padding-left: 10px;
+           box-sizing: border-box;
+           font-weight: bolder;
+           font-size: 23px;
+        }
+        .msg-content p{
+            justify-content: left !important;
+            padding: 5px;
+            text-align: left;
+        }
+    }
+    @media (min-width: 768px){
+        .msg{
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+        }
+        .msg-content h1{
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           padding-left: 10px;
+           box-sizing: border-box;
+        }
+        
+    }
+   </style>
+   <div id="CM" class="msg"class="section lb">
+    <div class="msg-content">
+  <h1 class="head wow fadeInUp" style="font-weight: bolder;"><span style="color: red;font-weight: bold;">Chairman’s</span><br> Message</h1>
+<p style="font-weight: 500;">I started my education from a government school with no chairs or desks. While the school lacked basic infrastructure, I was fortunate to have competent and devoted teachers. Allah swt was  kind and I ended my naval career with three stars on my shoulders. Having  retired from active naval service, I feel incumbent upon myself to give back to society and help under privileged communities for a better tomorrow. I am grateful to my friends and family members who shared my dream and have joined in this journey. May Allah swt help us, make our job easy, guide us to attain our objectives and accept our humble contributions. (Ameen sum Ameen)
+ <br> <span style="font-weight: bolder;">  Vice Admiral Abdul Aleem HI(M)
+    <br>Chairman, Dulmicare Foundation</span>
+    </p>
+</div>
+<div class="msg-img wow fadeInUp">
+    <img src="images/CM.JPG" alt="img" style="border: none;">
+</div>
+</div>
+
+ </div>
+ <style>
+    .vis-mission {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping for responsive design */
+        gap: 20px; /* Space between items */
+        color: black;
+    }
+
+    .vision, .mission, .vis-img {
+        flex: 1; /* Equal flex-basis for all children */
+        min-width: 300px; /* Minimum width to maintain structure */
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+        text-align: center; /* Center text within the container */
+    }
+
+    .vision h1, .mission h1 {
+        font-size: 24px; /* Adjust font size for heading */
+        font-weight: bold; /* Bold text */
+        margin: 0 0 10px 0; /* Margin between heading and blockquote */
+    }
+
+    .vision blockquote, .mission blockquote {
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        font-size: 16px; /* Font size for blockquote */
+    }
+
+    .vis-img img {
+        width: 100%; /* Ensure images fit the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .motto {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping for responsive design */
+        gap: 20px; /* Space between items */
+    }
+
+    .motto > div {
+        flex: 1; /* Equal flex-basis for all children */
+        min-width: 300px; /* Minimum width to maintain structure */
+        box-sizing: border-box; /* Include padding and border in element's total width and height */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .motto img {
+        width: 100%; /* Ensure images fit the container */
+        height: 100%; /* Ensure images cover the container */
+        object-fit: cover; /* Ensure images cover the container */
+    }
+
+    .motto-2 {
+        display: flex;
+        flex-direction: column; /* Stack heading and paragraph vertically */
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Center content horizontally */
+        text-align: center; /* Center text within the container */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .motto-2 p {
+        font-size: 23px; /* Font size for paragraph */
+        margin: 0; /* Remove default margin */
+        line-height: 1.4; /* Adjust line height for readability */
+    }
+
+    .motto-2 span {
+        font-weight: bolder; /* Bold text */
+        color: black; /* Font color */
+        display: block; /* Ensure it takes up a full line */
+        margin-bottom: 10px; /* Space below the heading */
+    }
+
+    @media (max-width: 768px) {
+        .motto {
+            flex-direction: column; /* Stack items vertically on small screens */
+        }
+        .motto-2{
+            padding: 15px;
+            padding-bottom: 15px;
+        }
+        .motto-3{
+            padding-top: 15px;
+        }
+    }
+</style>
+</head>
+<body>
+<!-- Vision and Mission Section -->
+<div class="vis-mission">
+    <div class="vision">
+        <h1><img src="images/icon1.JPG" alt="Icon">VISION</h1>
+        <blockquote class="lead">
+            <li style="color: black;font-weight: 600;">• To be a leading and well reputed NPO; combating poverty through empowerment of underprivileged populace, and taking measures to ease their sufferings.</li>
+        </blockquote>
+    </div>
+    <div class="vis-img">
+        <img src="images/key.jpg" alt="Key Image">
+    </div>
+    <div class="mission">
+        <h1><img src="images/icon2.JPG" alt="Icon">Mission</h1>
+        <blockquote class="lead">
+            <li style="color: black;font-weight: 600;">To support the deserving populace in domains of Education, Skill Development, Healthcare, Clean Environment and Poverty Alleviation in order to make them productive and respectable member of the society, and to help affectees of natural calamities.</li>
+        </blockquote>
+    </div>
+</div>
+
+<!-- Motto Section -->
+<div class="motto">
+    <div class="motto-1">
+        <img src="images/newpics/on one side of  moto.jpeg" alt="image">
+    </div>
+    <div class="motto-2">
+        <p style="color: black;font-weight: 600;"><span>MOTTO</span> Helping Community for a better tomorrow</p>
+    </div>
+    <div class="motto-3">
+        <img src="images/newpics/on the 2nd side of Moto.jpeg" alt="image">
+    </div>
+</div>
+<!-- ####### Board of advisors ############### -->
+ <!-- advior -->
+ <style>
+    .adv h1{
+        font-size: 35px;
+        font-weight: bolder !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-left: 380px;
+    }
+    
+    .adv-flex {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .adv-img {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .adv-img img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        max-height: 400px;
+        object-fit: cover;
+        border: 1px solid lightgrey;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .adv-content {
+        width: 60%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .adv-content h2 {
+        font-size: 28px;
+        font-weight: bolder;
+        color: red;
+    }
+    @media (max-width: 768px) {
+        .adv{
+            padding-top: 70px;
+        }
+        .adv-flex {
+            flex-direction: column;
+        }
+        .adv-img, .adv-content {
+            width: 100%;
+        }
+        .adv-img img {
+            width: 100%;
+            height: auto;
+        }
+        .adv h1{
+            font-size: 30px;
+            padding-top: 15px;
+            margin: 0%;
+        padding: 0%;   
+    font-weight: bolder !important;
+justify-content: center;  
+padding-left: 20px;   }
+    }
+</style>
+<!--  board of advisors -->
+<section class="purple" style="background-color: hsl(300, 26%, 95%);">
+  <section class="adv" id="adv">
+    <h1  style="font-weight: bolder !important;">Meet our Board of Advisors</h1>
+<div class="adv-flex">
+    <div class="adv-img">
+<img src="images/newpics/adv-1.JPG" alt="image">
+    </div>
+    <div class="adv-content">
+<p> <h2  style="font-weight: bolder !important;">Aslam Malik</h2>
+    Mohammad Aslam Malik, born to Seith Mohammad Ismail Malik, is 78 years old. He received his early education in Dulmial, his hometown, and later at Sir Syed High School in Katas. At the age of 18, he relocated to England, where he pursued further studies at Elephant and Castle College in London. Balancing various jobs, he supported both himself and his family in Pakistan, which included his parents and five siblings, all while continuing his education. Progressing through the financial services sector, he began as a sales consultant, steadily advancing to roles such as branch manager and senior branch manager. His dedication led him to consistently rank first among managers and sales executives across the UK. In 1994, EFU Life Assurance in Pakistan recruited him as an executive based in Lahore. There, he successfully established five new branches from the ground up. In 2000, he returned to the UK due to personal and family commitments. Since retiring, he actively engages in social and charitable endeavors. He served as chairman of the British Pakistan Association in Leicestershire for over five years, guiding its activities with wisdom before transitioning the leadership to a younger successor. He continues to contribute as an advisor. Mr Aslam has been married to Sorriya for 50 years, and with her unwavering support, he has been able to achieve a great deal. They are blessed with four sons, four daughters-in-law whom they consider as their own daughters, and five grandchildren. Mr Aslam's life philosophy is rooted in the belief that "when you feel pain, you are alive; when you feel the pain of others, you are human." Seeking guidance from Allah and the Hadith, he remains committed to serving humanity until his last breath, Insha'Allah.</p>
+    </div>
+</div>
+<!-- adv -->
+<div class="adv-flex">
+  
+    <div class="adv-content">
+        <h2 style="font-weight: bolder !important;">Dr  Asif</h2>
+        <p>Dr. Khan received his BSc (Hons) and MSc in Earth Sciences from the University of Peshawar (1975-1981), followed by his Ph.D. from Imperial College, London, UK in 1988. He completed four post-doctorate fellowships at universities in the USA and UK including Oxford, Texas (Dallas), Penn State, and Lehigh. He started his career at the National Centre of Excellence in Geology, University of Peshawar in 1981, where he progressed to the position of Professor (1998), Director (2005), and Tenured Professor (2007). He served as the Vice Chancellor, Karakorum International University, Gilgit-Baltistan (2014-2017), and University of Peshawar (2017-2020). In recognition of his contributions to teaching, research, and higher education management, Dr. Asif Khan has been decorated with many national and international awards/fellowships including Civil Award of Tamgha-i-Imtiaz (2000), Honorary Fellowship of the Geological Society London (2008), Fellowship of Pakistan Academy of Sciences (2009), Distinguished National Professorship by the HEC (2012), and the Fellowship of the Chinese Academy of Sciences as an elected foreign member (2020). He has published over 100 research papers, two colored geological maps, and three books, one published by the Geological Society of London.</p>
+    </div>
+    <div class="adv-img">
+        <img src="images/newpics/Dr Asif M Khan-Photo.jpg" alt="">
+            </div>
+</div> 
+    <!-- adv -->
+<div class="adv-flex">
+    <div class="adv-img">
+<img src="images/newpics/Dr Fehmida.jpeg"  alt="">
+    </div>
+    <div class="adv-content">
+        <h2  style="font-weight: bolder !important;">Dr Fehmida</h2>
+        <p>PROF DR FEHMIDA SHAHEEN MBBS, MCPS & FCPS (GYN/OBS) Professor & Head of Department of Gyn/Obs, Heavy Industries Taxila Institute of Medical Sciences, Taxila Cantt. Prof. Dr. Fehmida Shaheen was born in 1956 in the village of Dulmial. She is celebrated as the first lady doctor from her village. She earned her MBBS degree from Rawalpindi Medical College in 1980. Dr. Shaheen's illustrious career began at Holy Family Hospital Rawalpindi, where she initially served as a junior doctor. Following her postgraduate studies, she progressed to the role of Professor of Gyn/Obs at Rawalpindi Medical College and consultant at Holy Family Hospital. She concluded her tenure there in 2016, retiring as Professor and Head of the Gyn/Obs Department of Rawalpindi Medical College (now Rawalpindi Medical University). Since retirement, she is working as Professor & HOD Gyn/Obs department at HITEC-IMS Taxilla. She is a teacher, mentor & trainer of medical students, postgraduate trainees & junior faculty.</p>
+    </div>
+</div>
+</section>
+  <!-- adv -->
+  <div class="adv-flex">
+   
+    <div class="adv-content">
+        <h2  style="font-weight: bolder !important;">General Asif</h2>
+        <p>Lt. Gen. Muhammad Asif, Hilal-e-Imtiaz (M), was born in 1958. He attended Government Middle School Dulmial and later graduated with distinction from Sir Syed High School, Katas. He completed his FSc from Government Degree College, Rawalpindi, and joined the Pakistan Military Academy at Kakul in 1976. During his military service, he earned a Master's degree in Strategic Studies from Quaid-e-Azam University, Islamabad. Commissioned in 1979 into the 44th Baluch Regiment (later converted to the 6th Sind Regiment), Lt. Gen. Asif had a distinguished military career spanning 39 years. He served in various command, staff, and instructional roles. He also participated in the UN mission in Cambodia and served as a Defense Adviser in Moscow for three years. After retiring from the Joint Staff Headquarters in 2016, he settled in Islamabad. In his leisure time, he enjoys playing golf, reading books, and traveling.</p>
+    </div>
+    <div class="adv-img">
+        <img src="images/newpics/advrr.JPG" alt="">
+            </div>
+</div>
+<!-- adv -->
+ <div class="adv-flex">
+    <div class="adv-img">
+        <img src="images/newpics/Khurshid 2nd.jpeg" alt="">
+    </div>
+    <div class="adv-content">
+        <h2  style="font-weight: bolder !important;">Mr Khurshid</h2>
+        <p> Mr Khurshid was born in the village of Dulmial, District Chakwal, Pakistan. He received his primary school education in Dulmial and Kattas Schools. He went on to receive his Bachelor of Commerce from Karachi University. He pursued his professional designation as a Chartered Accountant (CA) from the Institute of Chartered Accountants in England and Wales. Khurshid completed his CA Training/Articleship in London and after qualification joined the prestigious firm of KPMG. At this juncture, he made a big decision of his life and relocated from London, UK to Toronto, Canada joining Deloitte in their Toronto office. After leaving the firm, he worked with the Federal Government of Canada in the Auditor General Office of Canada. The most significant move of Khurshid's career came in 1981 when he decided to shift to Saudi Arabia to join Lockheed Martin (an American Aerospace Company). In 1987, he was promoted to the position of Chief Financial Officer and in 1990, he took on the additional responsibilities of Deputy General Manager. During his career at Lockheed, he was selected to attend the Lockheed Management Institute in 1985 and the Lockheed Leadership Institute in 1989, both programs designed to develop future leaders within the organization. After 21 years with Lockheed Martin, Khurshid diversified his career path, joining a group headed by a Senior member of the Saudi Royal Family in the capacity of Senior Financial Advisor. His role was to advise on investment decisions, serve as a member of the Board of Directors, and took a leadership role in restructuring the Group operating companies. He also served as volunteer Chairman of the Pakistan Accountants Forum, Saudi Arabia, for ten years. Khurshid is married and has four children. He now resides in Toronto, Canada. He is an avid golfer. Currently, he looks after business interests of the family and manages the family investments.</p>
+    </div>
+ </div>
+ </section>
+    <!--==##########=========== Board of directors==############=========== -->
+    <style>
+        .director {
+            display: flex;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 0%;
+            padding: 0%;
+        }
+    
+        .director img {
+            width: 300px; /* Set the desired width */
+            height: 350px; /* Set the desired height */
+            border: 2px solid lightgrey; /* Add a light grey border */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        }
+    
+        @media (max-width: 768px) {
+            .director {
+                flex-direction: column;
+            }
+    
+            .dir-para h2 {
+                font-weight: bolder;
+                font-size: 23px;
+            }
+    
+            .dir-para p {
+                font-size: 18px;
+            }
+        }
+    
+        @media (min-width: 768px) {
+            .director {
+                flex-direction: row;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+    
+            .dir-para h2 {
+                justify-content: center !important;
+            }
+    
+            .dir-para p {
+                margin: 0%;
+                padding: 0%;
+            }
+        }
+    </style>
+    <section class="purple" style="background-color: hsl(300, 26%, 95%);">
+    <div id="BOD" style="color: black;">			
+                <h1 style="font-size: 40px;"> <span style="font-weight: bold;" >Meet our
+                Board of directors</span></h1>
+                <div class="director">
+                    <div class="dir-img ">
+                        <img  src="images/newpics/cm-bod.JPG" alt="img">
+                                    </div>
+                    <div class="dir-para">
+    <h2>Admiral Abdul Aleem</h2>
+<h2 style="color: red;">Chairman,Dulmicare Foundation</h2>
+<p class="wow fadeInUp"style="font-weight: 500;" >Vice Admiral Abdul Aleem HI(M) joined Pakistan Navy on 01 Jan 1982 and was commissioned in Operations branch of Pakistan Navy in 1984. The Flag Officer has vast experience of command and staff appointments within Pakistan and abroad. As Flag Officer, has served as DG National Institute of Maritime Affairs, Chief of Staff (Personnel), Commander Coast, Deputy Chief of Naval Staff (Projects), Deputy Chief of Naval Staff (Personnel) and Flag Officer Sea Training (FOST). At sea, the Flag Officer has commanded a Destroyer Squadron besides Command of PNS SHAHJAHAN, PNS JALALAT and PNS RAJSHAHI. The Flag Officer has also served as Principal Secretary to Chief of the Naval Staff and Commander International counter Piracy Task Force TF-151 at HQ NAVCENT, Bahrain.
+<br>
+
+<br>
+
+</p></div>
+    </div>
+
+            <p style="font-weight: 500;padding-left: 3px;">
+                The Flag Officer is a graduate of Pakistan Navy War College, Naval Command College, United States of America and National Defence University, Islamabad. In recognition to his meritorious services, Flag Officers was awarded and Sitara-i-Imtiaz (Military) in 2010 and Hilal-i-Imtiaz (Military) in 2015. 
+                <br>The Flag Officer by virtue of his appointments as Chief of Staff (Personnel) at NHQ, Commander Coast, Commander Central Punjab and Commandant PNS BAHADUR has vast experience of supervision and management of various educational/ training institutes as well as health setups under respective commands.
+            He has founded Dulmicare Foundation with the help of likeminded friends. The  aim is to support the deserving populace in domains of Education, Skill Development, Healthcare, Clean Environment and Poverty Alleviation in order to ease their sufferings and make them productive and respectable member of the society.</p> 
+                    <!-- BOD -->
+                    <div class="director">
+                        <div class="dir-para wow fadeInUp">                    
+                            <h2 style="padding-left: 10px;">Dr.Tania Saif</h2>
+     <p style="font-weight: 500;padding-left: 10px;">Dr Tania is a Pediatrics who is desirous to contribute her time and resources for the uplift of community especially under privileged segment of Pakistani society; in the field of Health.  As Physician she is committed to patient welfare and of the preventive healthcare be put to good use in a medically challenged environment of Pakistan. Dr Tania Carried out a detailed research study titled “Knowledge and practice of hairdressers in women’s beauty salons about Hepatitis B and C and carried out an Observational study in Fauji Foundation Hospital Rawalpindi titled, Etiological agents for “Pulmonary exacerbations in children with cystic fibrosis”. During the COVID-19 Outbreak, she carried out a research study at Fauji Foundation Hospital Rawalpindi, tiled, “Redefining dialysis facility recommendation for Infection control and prevention”.</p>
+     </div>  
+     <div class="dir-img wow fadeInUp">
+        <img src="images/bodd.JPG" alt="Dr.Tania">
+        </div>
+     </div>                     
+     <!-- BOD -->
+     <div class="director">
+        <div class="dir-img wow fadeInUp">
+            <img src="images/bodd3.JPG" alt="img">
+         </div>
+        <div class="dir-para wow fadeInUp">                    
+            <h2 style="padding-left: 10px;">Sohail Abid</h2>
+            <p style="font-weight: 500;padding-left: 10px;">Commodore Sohail Abid SI(M) joined Pakistan Navy on 28 Jul 1979 and was commissioned in Operations branch of Pakistan Navy in 1983. The Officer has vast experience of command and staff appointments within Pakistan and abroad. At sea, the Officer has vast experience of serving onboard various sea going platforms of Pakistan Navy including Command of Submarine Squadron, PNS/M HANGOR and PNS/M MANGRO. Ashore, he has served as Commander North. His Staff appointments include Assistant Chief of the Naval Staff (Education & Evaluation), Assistant Chief of the Naval Staff (Personnel), Chief Staff Officer to Flag officer Sea Training, and Chief Staff Officer to Commander Coast, Deputy Naval Secretary and Director Submarine Operations. He has also served as Head of Submarine Construction Mission at France.
+
+    The Officer is a graduate of Pakistan Navy War College and National Defence University, Islamabad. In recognition to his meritorious services, Officer was awarded Sitara-i-Imtiaz (Military) in 2011. 
+                
+ The Officer by virtue of his appointments as Commander North, Chief Staff Officer to Commander Coast and Assistant Chief of the Naval Staff (Education) has vast experience of supervision and management of various educational/ training institutes as well as health setups under respective commands. Salient of the same are appended below: 
+</p>
+</div>
+
+ </div>
+  <!-- BOD -->
+  <div class="director">
+    <div class="dir-para wow fadeInUp">                    
+        <h2 style="padding-left: 10px;">Mrs.Shahida Sohail</h2>
+        <p style="font-weight: 500;padding-left: 10px;">Mrs Shahida Sohail is a house wife whose children are grown up and she is desirous to contribute her resources for the uplift of community especially under privileged segment of Pakistani society. As an active member PNWA Board, PN Women Association (May 2012 to July 2016), she did oversee and policy formulation of PNWA activities, supervision of PNWA industrial homes, helping women in skill development and empowerment programs. Ran vocational training of young girls and needy women in the fields of dress making, knitting, embroidery, beautician, etc to enable them earn their livelihoods. As Vice President, PN Women Association Coastal Command (PNWA COASTAL June 2009 to December 2010), Begum Shahida Sohail did oversee and top-level management of Industrial homes at SAJAWAL, ORMARA and GWADAR. She planned and executed marketing and exhibition of the produced handicrafts to facilitate income generation for the needy women of coastal communities. She also helped in monitoring of educational institutes to ensure quality education of PN schools at Coastal Areas.  As Begum Commander Submarine Squadron (2010 – 2011), she being a senior member of naval Officers Wives Club of Fleet command, planned finishing course and arranged lectures and motivational talks for lady wives of PN Fleet personnel while actively engaging in looking after families of fleet personnel away at sea.
+     </p>
+     </div>
+     <div class="dir-img wow fadeInUp">
+        <img src="images/bodd4.JPG" alt="img">
+     </div>
+     </div>
+      <!-- BOD -->
+  <div class="director">
+    <div class="dir-img wow fadeInUp">
+        <img src="images/bodd5.JPG" alt="img">
+    </div>
+    <div class="dir-para wow fadeInUp"> 
+        <h2>Mrs Samina Aleem</h2>
+ <p style="font-weight: 500;">Mrs. Samina Aleem is a house wife whose children are grown up and she is desirous to contribute her resources for the uplift of community especially under privileged segment of Pakistani society. As senior member of Pakistan Navy Women Association (PNWA) Board (Nov 2017 – May 2019), she has been overseeing the PNWA activities and actively participated in policy formulation of PNWA. She also supervised PNWA industrial homes while helping women of naval community in their skill development and empowerment programs.  As President, PN Women Association Coastal Command (PNWA COASTAL February 2017 to November 2017). She did oversee and top-level management of Industrial homes at SAJAWAL, ORMARA and GWADAR. She also planned and executed marketing and exhibition of the produced handicrafts to facilitate income generation for the needy women of coastal communities. As President Industrial Home Majeed Sailors Residential Estate-Karachi (April 2011 to July 2012), she supervised Vocational training of young girls and needy women in the fields of dress making, knitting, embroidery, beautician, etc to enable them earn their livelihoods. She also run Computer training centers for girls and women and also ensured monitoring of educational Institutes to ensure quality education of schools at Majeed Sailors Residential Estate. As Begum Commander destroyer Squadron 25, (Aug 2009 – Aug 2010), she remained active member of NOW club (Naval officers’ Wives Club under Fleet Command), and participated in Planning finishing courses, arranging lectures and motivational talks for lady wives of PN Fleet personnel while actively engaging and looking after families of fleet personnel away at sea.
+ </p>
+    </div>
+</div>
+ <!-- BOD -->
+ <div class="director">
+    <div class="dir-para wow fadeInUp" style="color: black;">                    
+        <h2 style="padding-left: 10px;">Engineer Arooj Fatima</h2>
+        <p style="font-weight: 500;padding-left: 10px;color: black;">Arooj Fatima is a Chemical Engineer who is desirous to contribute her time and resources for the uplift of community especially under privileged segment of Pakistani society. Has worked as a Teacher For Pakistan Fellow with a commitment to teach full-time in low-income communities, and develop the leadership to work effectively towards education reforms in the long-run. She helped in capacity building, raising standards and teaching techniques of staff at various schools, motivating children of subject schools for doing their best in studies to attain high standards and better life. She volunteered at SOS village near NUST Islamabad. Helped students with studies and in their grooming, and also volunteered as an assistant teacher at Special Children School Karsaz Karachi during her college time. She is a keen reader and married to a naval officer ; blessed with three children.
+      </p>
+      </div>
+      <div class="dir-img wow fadeInUp">
+        <img src="images/bodd6.JPG"  alt="img" style="width: 300px;height: 350px;">
+      </div>
+      </div>
+    </section>  
+<!-- ### Team members ######### -->
+<style>
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center; /* Centers the content */
+    }
+    .team h1{
+        font-size: 30px;
+        font-weight: bolder !important;
+    }
+    .team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex-basis: calc(25% - 20px); /* 25% width minus the gap */
+        box-sizing: border-box;
+    }
+    .team h2{
+        color: red;
+        font-weight: bolder;
+    }
+    .team img {
+        width: 300px;
+        height: 350px;
+        object-fit: contain;
+        border: 1px solid lightgrey;
+        border-radius: 8px; /* Optional: adds slightly rounded corners */
+    }
+    @media (max-width: 768px) {
+        .team-members {
+            flex-direction: column;
+            align-items: center;
+        }
+        .team {
+            flex-basis: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <section class="purple" style="background-color: hsl(300, 26%, 95%);">
+<section class="team">
+    <h1 style="font-weight: bolder;">Our team members</h1>
+    <div class="team-members">
+        <div class="team">
+            <img src="images/newpics/Haji Mazhar.jpeg" alt="Haji Mazhar Hussain">
+            <h2>Haji Mazhar Hussain</h2>
+            <p>Coordinator</p>
+        </div>
+
+        <div class="team">
+            <img src="images/newpics/sajjad-tm.JPG" alt="Sajjad Hussain Malik">
+            <h2>Sajjad Hussain Malik</h2>
+            <p>Administrator Vocational Training</p>
+        </div>
+
+        <div class="team">
+            <img src="images/newpics/ehsan- tm.JPG" alt="Malik Ehsan ul Haq">
+            <h2>Malik Ehsan ul Haq</h2>
+            <p>President Graveyards Committee</p>
+        </div>
+
+        <div class="team">
+            <img src="images/newpics/atiq-tm.JPG" alt="Haji Atiq ur Rehman">
+            <h2>Haji Atiq ur Rehman</h2>
+            <p>Project Manager Job Creation through Skill Development & Project Director Infrastructure</p>
+        </div>
+    </div>
+
+    <div class="team-members">
+        <div class="team">
+            <img src="images/newpics/tm5.JPG" alt="Malik Muhammad Saleem">
+            <h2>Malik Muhammad Saleem</h2>
+            <p>Administrator Fateh Dulmicare Medical Centre & Member Graveyards Committee</p>
+        </div>
+
+        <div class="team">
+            <img src="images/newpics/idrees-tm.JPG" alt="Malik Muhmmad Idrees">
+            <h2>Malik Muhmmad Idrees</h2>
+            <p>Incharge Water Management Committee</p>
+        </div>
+
+        <div class="team">
+            <img src="images/newpics/dawood tm.JPG" alt="Mr Dawood Gulzar">
+            <h2>Mr Dawood Gulzar</h2>
+            <p>Project Director Job Creation through Skill Development and Overseas Employment</p>
+        </div>
+        <div class="team">
+            <img src="images/newpics/tm-8.JPG" alt="Mr Dawood Gulzar">
+            <h2>Abrar Hussain Malik</h2>
+            <p>The Media Coordinator</p>
+        </div>
+    </div>
+ </section>
+</section>
+<div class="marquee">
+    <div class="marquee-content">
+        <img src="images/newpics/m-1.jpeg" alt="Image 1">
+        <img src="images/newpics/m-2.jpeg" alt="Image 2">
+        <img src="images/newpics/m-3.jpeg" alt="Image 3">
+        <img src="images/newpics/m-4.jpeg" alt="Image 4">
+      >
+        <!-- Duplicated images for continuous effect -->
+        <img src="images/newpics/m-6.jpeg" alt="Image 1">
+        <img src="images/newpics/m-1.jpeg" alt="Image 2">
+        <img src="images/newpics/m-2.jpeg" alt="Image 3">
+        <img src="images/newpics/m-3.jpeg" alt="Image 4">
+       
+        <!-- Duplicated images for continuous effect -->
+        <img src="images/newpics/m-1.jpeg" alt="Image 1">
+        <img src="images/newpics/m-2.jpeg" alt="Image 2">
+        <img src="images/newpics/m-3.jpeg" alt="Image 3">
+        <img src="images/newpics/m-4.jpeg" alt="Image 4">
+      
+        <!-- Duplicated images for continuous effect -->
+        <img src="images/newpics/m-3.jpeg" alt="Image 1">
+        <img src="images/newpics/m-4.jpeg" alt="Image 2">
+        <img src="images/newpics/m-1.jpeg" alt="Image 3">
+        <img src="images/newpics/m-2" alt="Image 4">
+        
+         <!-- Duplicated images for continuous effect -->
+         <img src="images/newpics/m-5.jpeg" alt="Image 1">
+         <img src="images/newpics/m-3.jpeg" alt="Image 2">
+         <img src="images/newpics/m-5.jpeg" alt="Image 3">
+         <img src="images/newpics/m-6.jpeg" alt="Image 4">
+         <img src="images/newpics/m-4.jpeg" alt="Image 2">
+          <!-- Duplicated images for continuous effect -->
+          <img src="images/newpics/m-3.jpeg" alt="Image 1">
+          <img src="images/newpics/m-4.jpeg" alt="Image 2">
+          <img src="images/newpics/m-1.jpeg" alt="Image 3">
+          <img src="images/newpics/m-2" alt="Image 4">
+          <img src="images/newpics/m-4.jpeg" alt="Image 2">
+         <!-- Duplicated images for continuous effect -->
+         <img src="images/newpics/m-3.jpeg" alt="Image 1">
+         <img src="images/newpics/m-4.jpeg" alt="Image 2">
+         <img src="images/newpics/m-1.jpeg" alt="Image 3">
+         <img src="images/newpics/m-2" alt="Image 4">
+         
+         <!-- Duplicated images for continuous effect -->
+         <img src="images/newpics/m-6.jpeg" alt="Image 1">
+        <img src="images/newpics/m-1.jpeg" alt="Image 2">
+        <img src="images/newpics/m-2.jpeg" alt="Image 3">
+        <img src="images/newpics/m-3.jpeg" alt="Image 4">
+        <img src="images/newpics/m-4.jpeg" alt="Image 2">
+      
+         <!-- Duplicated images for continuous effect -->
+         <img src="images/newpics/m-1.jpeg" alt="Image 1">
+         <img src="images/newpics/m-2.jpeg" alt="Image 2">
+         <img src="images/newpics/m-3.jpeg" alt="Image 3">
+         <img src="images/newpics/m-4.jpeg" alt="Image 4">
+         <img src="images/newpics/m-6.jpeg" alt="Image 1">
+         
+    </div>
+</div>
+<style>
+
+    /* ########  Achievements ####### */
+    
+    @media (max-width: 768px) {
+        .achievement {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .achie-para h2 {
+            font-weight: bolder;
+            font-size: 23px;
+            color: red;
+        }
+        .achie-para p {
+            font-size: 18px;
+            text-align: left; /* Align paragraph text to the left */
+        }
+        .achie-img {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+    }
+    
+    @media (min-width: 769px) {
+        .achievement {
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding-top: 80px;
+            padding-bottom: 30px;
+        }
+        .achie-para {
+            width: 60%;
+        }
+        .achie-img {
+            width: 40%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    
+    .achie-para h2 {
+        justify-content: center !important;
+        color: red;
+        font-weight: bold !;
+    }
+    .achie-para p {
+        margin: 0;
+        padding: 0;
+        text-align: left; /* Align paragraph text to the left */
+    }
+    .achi-head {
+        font-size: 35px;
+        justify-content: center;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .achi {
+        padding-top: 30px;
+        margin-top: 10px;
+    }
+    .achie-img img {
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+    }
+    </style>
+    
+    <div id="issues" data-scroll-index="2">
+        <div class="achi">
+            <div style="color: black;">
+                <div class="container">
+                    <div class="section-title text-center">
+                        <h1 style="font-weight: bold; font-size: 55px; color: black; justify-content: center;" class="achi-head">
+                            <span style="font-weight: bold;">Achievements</span>
+                        </h1>
+                        <div class="achievement">
+                            <div class="achie-para">
+                                <h2 style="font-weight: bold !important;">Poverty Alleviation</h2>
+                                <p class="wow fadeInUp" style="font-weight: 500; color: black;">
+                                    Provision of social and financial support to a large number of families from the underprivileged segment of society. Includes monthly financial assistance to widows and deserving families, marriage assistance, financial support for jobless individuals for startups, distribution of winter clothing, and provision of substantial quantities of Ration Packs to deserving low-income families during Ramadan.
+                                </p>
+                            </div>
+                            <div class="achie-img">
+                                <img src="images/newpics/poverty.JPG" alt="img">
+                            </div>
+                        </div>
+    
+                        <div class="achievement">
+                            <div class="achie-img wow fadeInUp">
+                                <img src="images/newpics/Witrh education and skill development.jpeg" alt="Dr.Tania">
+                            </div>
+                            <div class="achie-para wow fadeInUp">
+                                <h2 style="padding-top: 60px;">Education and Skill Development</h2>
+                                <p style="font-weight: 500; color: black;">
+                                    For improving the quality of education & the infrastructure of Public Schools in Dulmial/elsewhere, Boys and Girls Primary and Secondary Schools have been given large amounts, support programmes were sponsored e.g financial assistance primarily from Dulmial and adjoining villages, at various Colleges and universities. DULMICARE established a vocational Training Institute (VTI) Dulmial with the support of MOAWIN FOUNDATION, which is conducting Dress Designing and Making courses for girls since Aug 2022. The VTI also successfully conducted a graphic Designing Course in 2022/2023 and has recently conducted an E Commerce Course at Choa saiden Shah with the support and collaboration of Mr. Dawood Gulzar. Efforts are also in hand to enhance the scope and scale of DULMICARE FOUNDATION VTI with the collaboration of The HUNAR FOUNDATION (THF).
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="achievement">
+                            <div class="achie-para wow fadeInUp">
+                                <h2>Health and Medical Facilities</h2>
+                                <p style="font-weight: 500; color: black;">
+                                    Facilitated major surgical procedures and other medical treatment of a number of needy patients at local hospitals across Pakistan, financial assistance to chronic patients for life saving medical support, Medical Camps. Additionally signed a written MOU with Trauma Center, THQ Hospital Kallar Kahar and sponsored expenses of its Dialysis center. In this regard donated millions of rupees for running expenses of the Dialysis center including required medicines, kits, consumables, maintenance of machines etc. recently has established Fateh Dulmicare Medical Centre at Village Dulmail with the support and patronage of Mr. Khurshid Ahmad of Dulmial; presently residing in Canada.
+                                </p>
+                            </div>
+                            <div class="achie-img wow fadeInUp">
+                                <img src="images/newpics/health.JPG" alt="img">
+                            </div>
+                        </div>
+    
+                        <div class="achievement">
+                            <div class="achie-img wow fadeInUp">
+                                <img src="images/newpics/community.JPG" alt="img">
+                            </div>
+                            <div class="achie-para wow fadeInUp">
+                                <h2 style="padding-top: 60px; padding-left: 10px; padding-right: 10px;">Community Services & Infrastructure</h2>
+                                <p style="font-weight: 500; color: black; justify-content: left;">
+                                    Apart from Education, Health and Poverty Alleviation sectors, the DULMICARE FOUNDATION has sponsored following activities:
+                                    <br>a. Construction of Patwar Khana / Dehi Markaz Mall building at Village Dulmial. The center is functioning successfully since June 2023.
+                                    <br>b. Massive dredging of Dulmial Bun (pond) and reinforcements of its sides along with land reclamation for widening of adjoining road was undertaken in 2022.
+                                    <br>c. Cleaning of weeds and wild growth from village Graveyard, an activity sponsored by Mr. Abdul Muqeet residing in UK. Work on paved pathways and other ancillary requirement is in progress. Efforts are also in hand to streamline burial arrangements.
+                                    <br>d. Contributions to various Masajid on regular basis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                    <div class="marquee">
+                        <div class="marquee-content">
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                            <!-- Duplicated images for continuous effect -->
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                            <!-- Duplicated images for continuous effect -->
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                            <!-- Duplicated images for continuous effect -->
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                          
+                             <!-- Duplicated images for continuous effect -->
+                             <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                             <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                             <img src="images/achi2.JPG" alt="Image 3">
+                             <img src="images/key5.jpg" alt="Image 4">
+                             <img src="images/key1.png" alt="Image 5">
+                             
+                        </div>
+                    </div>
+	
+
+	<div id="gallery" data-scroll-index="4" >
+		<div class="container">
+			<div class="section-title text-center">
+                <h3 style="font-weight: bold;font-size: 55px; color: black;">Gallery</h3>
+                
+            </div><!-- end title -->
+					<div class="gallery-list row">
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/1.jpeg" class="img-responsive" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/10.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
+					<div class="gallery-single fix">
+						<img src="uploads/6.jpeg" class="img-responsive" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/6.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="uploads/5.jpeg" class="img-responsive" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/5.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
+						<img src="uploads/10.jpeg" class="img-responsive" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/10.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="uploads/11.jpeg" class="img-responsive" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/11.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_d">
+					<div class="gallery-single fix">
+						<img src="uploads/12.jpeg" class="img-responsive" alt="Image">
+						<div class="img-overlay">
+							<a href="uploads/12.jpeg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+    
+<!--######################### Certificates Section ###########################-->
+<!-- Certificates Section -->
+<!-- Certificates Section -->
+<div id="certificates" data-scroll-index="5" class="section wb">
+    <div class="container">
+        <div class="section-title text-center">
+            
+             
+            <h1 class="certificate-title" style="font-weight: bolder;font-size: 55px; color: black;">Certificates</h1>
+            <h2 class="certificate-subtitle">Recognition and Accreditation:<br>Browse Our Certificates</h2>
+        </div>
+        
+        <!-- First Row of Certificates -->
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>Application for Company Incorporation</h3>
+                <a href="pdfs/Application for Company Incoproration" download class="download-button">Download</a>
+            </div>
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>Article of Association</h3>
+                <a href="pdfs/Article of Association" download class="download-button">Download</a>
+            </div>
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>Certificate of Incorporation</h3>
+                <a href="pdfs/CERTIFICATE OF INCORPORATION Dulmicare" download class="download-button">Download</a>
+            </div>
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>FBR Tax Payer Certificate</h3>
+                <a href="pdfs/FBR Tax payer certificate" download class="download-button">Download</a>
+            </div>
+        </div>
+        
+        <!-- Second Row of Certificates -->
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>FBR Tax Payer Profile</h3>
+                <a href="pdfs/FBR Tax payer certificate" download class="download-button">Download</a>
+            </div>
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>SECP Licence</h3>
+                <a href="pdfs/SECP Licence" download class="download-button">Download</a>
+            </div>
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>Application Form</h3>
+                <a href="pdfs/Application for Company Incoproration" download class="download-button">Download</a>
+            </div>
+            <div class="certificate-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg" alt="PDF Icon">
+                <h3>Memorandum of Association</h3>
+                <a href="pdfs/Memorandom of Association" download class="download-button">Download</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.certificate-title {
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: 35px;
+}
+
+.certificate-subtitle {
+    color: red;
+    font-weight: bold;
+}
+
+.certificate-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.certificate-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.certificate-card img {
+    width: 70px;
+    height: 70px;
+}
+
+.certificate-card h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.download-button {
+    color: white;
+    background-color: green;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: darkgreen;
+}
+@media only screen and (max-width: 768px){
+    .certificate-container{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .certificate-card{
+        width: 100%;
+    }
+    .certificate-card h3{
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 769px){
+    .certificate-container{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+
+    }
+   
+    .certificate-card h3{
+        font-weight: bold;
+       
+    }
+}
+</style>
+
+    <!-- ====================================DONATION============================================ -->
+      
+        <style>
+            .don-head{
+                font-size: 35px;
+                font-weight: bold;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        </style>
+        <div class="donate" style="font-weight: 500;">
+       <section class="donate" id="don"  style="color: black;">
+        <h1 class="don-head">Donate now</h1>
+        <p style="color: black;">
+ Get in touch with us. Your voice matters in our mission for positive change. Together, let’s make an impact
+        <br>There is no better way to thank God for your sight than by giving a helping hand to someone in the dark – Helen Keller</p>
+         <div class="contact-info">
+             <h1 style="color: red;font-weight: bold; font-size: 30px;">Contact us for donations</h1>
+             <h2 style="color: black;font-weight: bold; font-size: 20px;"> For giving donations refer here</h2>
+             <ul style="color: black;" >
+                <li style="color: black;"  >
+                    <i class='fas fa-arrow-right'></i>  The Chairman Dulmicare Foundation: 
+Tel:  <span class="copyable"> 0342 - 2678929</span></li>
+<li style="color: black;"> <i class='fas fa-arrow-right'></i>  The Director Dulmicare Foundation:
+Tel:  <span class="copyable">0322 - 4224342</span> </li>
+<li>
+    <i class='fas fa-arrow-right'></i> E mail: <span class="copyable"> Dulmicare@gmail.com</span></li>
+                 <li style="color: black;">
+                     <i class='fas fa-arrow-right'></i>
+                     Dulmicare Foundation Meezan Bank for donation IBAN ACCOUNT is: 
+                     <span class="copyable">PK53MEZN0003290109142775</span>
+                 </li>
+                 <li>
+                     <i class='fas fa-arrow-right'></i>
+                     Dulmicare Foundation - Zakat Meezan Bank IBAN is: 
+                     <span class="copyable">PK11MEZN0003290109157402</span>
+                 </li>
+                 <li>
+                     <i class='fas fa-arrow-circle-right'></i>
+                     MEZNPKKAGRD is the swift code: 
+                     <span class="copyable">MEZNPKKAGRD</span>
+                 </li>
+                </div>
+	
+                <div class="marquee">
+                        <div class="marquee-content">
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                            <!-- Duplicated images for continuous effect -->
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                            <!-- Duplicated images for continuous effect -->
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                            <!-- Duplicated images for continuous effect -->
+                            <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                            <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                            <img src="images/achi2.JPG" alt="Image 3">
+                            <img src="images/key5.jpg" alt="Image 4">
+                            <img src="images/key1.png" alt="Image 5">
+                          
+                             <!-- Duplicated images for continuous effect -->
+                             <img src="images/newpics/marqee1.jpeg" alt="Image 1">
+                             <img src="images/newpics/marqee2.jpeg" alt="Image 2">
+                             <img src="images/achi2.JPG" alt="Image 3">
+                             <img src="images/key5.jpg" alt="Image 4">
+                             <img src="images/key1.png" alt="Image 5">
+                             
+                        </div>
+                    </div>
+           
+<style>
+    .copyrights{
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+   .copyrights h2{
+    font-size: 25px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+   }
+    .copyrights p{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+</style>
+
+   
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/camera.min.js"></script>
+	<script src="js/scrollIt.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var dropdown = document.querySelector('.nav-item.dropdown');
+            var menu = dropdown.querySelector('.dropdown-menu');
+    
+            dropdown.addEventListener('mouseenter', function() {
+                menu.style.display = 'block';
+            });
+    
+            dropdown.addEventListener('mouseleave', function() {
+                setTimeout(function() {
+                    if (!menu.matches(':hover')) {
+                        menu.style.display = 'none';
+                    }
+                }, 60000); // 1 minute delay
+            });
+    
+            menu.addEventListener('mouseleave', function() {
+                setTimeout(function() {
+                    menu.style.display = 'none';
+                }, 60000); // 1 minute delay
+            });
+    
+            menu.addEventListener('mouseenter', function() {
+                menu.style.display = 'block';
+            });
+        });
+    </script>
+
+</body>
+</html>
